@@ -1,0 +1,43 @@
+body {
+    background: lightyellow;
+    font-family: Futura;
+  }
+  ul {
+    width: 400px;
+    background-color: lightyellow;
+    float: left;
+  }
+  h1 {
+    font-family: Futura;
+    color: orange;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  li a {
+    display: block;
+    width: 196px;
+    padding: 3px 4px;
+    margin: 5px 13px;
+    color: orange;
+    border-bottom: 1px solid #96BF1F;
+    -moz-transition: background-color .3s ease-in;
+    -webkit-transition: background-color .3s ease-in;
+    -o-transition: background-color .3s ease-in;
+    transition: background-color .3s ease-in;
+  }
+
+  a:active {
+    font-size: 25px;
+    
+  }
+  
+  li a:hover {
+    background-color: #96C11F;
+    color: #fff;
+    -moz-transition: background-color 0.01s;
+    -webkit-transition: background-color 0.01s;
+    -o-transition: background-color 0.01s;
+    transition: background-color 0.01s;
+  }
+  
